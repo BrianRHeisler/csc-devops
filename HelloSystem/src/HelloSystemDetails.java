@@ -29,6 +29,7 @@ public class HelloSystemDetails {
 		    System.out.println("java vendor url: " +
 			        System.getProperty("java.vendor.url"));
 		    
+		    
 		    /* Total number of processors or cores available to the JVM */
 		    System.out.println("\n" + "PROC and MEM INFO" + "\n" + "Available processors (cores): " + 
 		        Runtime.getRuntime().availableProcessors());
